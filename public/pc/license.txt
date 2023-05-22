@@ -1,0 +1,11 @@
+Model Information:
+* title:	pc
+* source:	https://sketchfab.com/3d-models/pc-dcb77781b3d347bab22d451dab0f0bd7
+* author:	zozolka (https://sketchfab.com/awokadokiwi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "pc" (https://sketchfab.com/3d-models/pc-dcb77781b3d347bab22d451dab0f0bd7) by zozolka (https://sketchfab.com/awokadokiwi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
