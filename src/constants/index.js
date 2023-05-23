@@ -20,8 +20,8 @@ import {
   groupbwt,
   askartec,
   saltex,
-  carrent,
-  jobit,
+  kicb,
+  optima,
   tripguide,
 } from "../assets";
 
@@ -190,30 +190,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Internet Bank KICB",
+    description: "Developed Internet Bank using Vue.js 2, Quasar framework, and gRPC. Developed both the client application (gRPC), and the admin panel (REST API - Axios).",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "vuejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "gRPC",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "quasar framework",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: kicb,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Optima",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Online banking offers convenient banking services directly from your home. Conduct all banking transactions and accessing real-time account info.",
     tags: [
       {
         name: "react",
@@ -228,7 +227,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: optima,
     source_code_link: "https://github.com/",
   },
   {

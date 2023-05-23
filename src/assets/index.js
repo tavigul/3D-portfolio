@@ -32,8 +32,8 @@ import starbucks from "./company/starbucks.png";
 import meta from "./company/meta.png";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import kicb from "./kicb.jpg";
+import optima from "./optima.jpg";
 import tripguide from "./tripguide.png";
 
 export {
@@ -65,8 +65,8 @@ export {
   saltex,
   tesla,
   meta,
-  carrent,
-  jobit,
+  kicb,
+  optima,
   tripguide,
   vuejs,
   webpack
