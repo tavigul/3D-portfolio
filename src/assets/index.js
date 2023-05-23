@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import askartec from "./company/askartec.png";
 import groupbwt from "./company/groupbwt.svg";
+import saltex from "./company/saltex.png";
 import shopify from "./company/shopify.png";
 import tesla from "./company/tesla.png";
 import starbucks from "./company/starbucks.png";
@@ -59,6 +60,7 @@ export {
   shopify,
   starbucks,
   groupbwt,
+  saltex,
   tesla,
   meta,
   carrent,

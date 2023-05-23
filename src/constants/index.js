@@ -15,10 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
     groupbwt,
     askartec,
-    shopify,
+    saltex,
     carrent,
     jobit,
     tripguide,
@@ -116,11 +115,24 @@ import {
   
   const experiences = [
     {
+        title: "Web Developer",
+        company_name: "Saltex",
+        icon: saltex,
+        iconBg: "#383E56",
+        date: "Feb 2023 - Present",
+        points: [
+          "Developing and maintaining web applications using React.js and Vue.js technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+      },
+    {
       title: "Frontend Developer",
       company_name: "GroupBWT",
       icon: groupbwt,
       iconBg: "#383E56",
-      date: "Feb 2022 - March 2023",
+      date: "Feb 2022 - Feb 2023",
       points: [
         "Responsible for creating effective design and development of user interaction screens using Vue.js and React.js for US and European projects.",
         "Led front-end projects in two directions: e-commerce and charity. Led the integration of Shopify to deliver a headless eCommerce customer experience that resulted in a 15% increase in leads for the Dutch company.",
@@ -141,33 +153,7 @@ import {
         "Enhances group projects using SCRUM methodology",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
