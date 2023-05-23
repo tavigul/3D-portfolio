@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vuejs from "./tech/vuejs.png"
+import webpack from "./tech/webpack.png"
 
 import askartec from "./company/askartec.png";
 import groupbwt from "./company/groupbwt.svg";
@@ -66,4 +68,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  vuejs,
+  webpack
 };
