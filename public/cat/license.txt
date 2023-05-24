@@ -1,0 +1,11 @@
+Model Information:
+* title:	Meyoco - Cat
+* source:	https://sketchfab.com/3d-models/meyoco-cat-86a44f394f4e46029db9d2b1149ebc6b
+* author:	LeafChan (https://sketchfab.com/CuteLeaf)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Meyoco - Cat" (https://sketchfab.com/3d-models/meyoco-cat-86a44f394f4e46029db9d2b1149ebc6b) by LeafChan (https://sketchfab.com/CuteLeaf) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
