@@ -13,6 +13,48 @@
   color-scheme: dark;
 }
 
+body {
+    background-color: rgba(255, 150, 162, 1);
+}
+
+#bg {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: background 0.6s ease;
+    width: 100%;
+    background: rgba(255, 150, 162, 1);
+}
+
+.top {
+    background: linear-gradient(#c74f80, rgba(255, 150, 162, 0));
+    height: 66vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: background 0.6s ease;
+    top: 0
+}
+
+.bottom {
+    background: linear-gradient(rgba(255, 150, 162, 0), #c74f80);
+}
+
+#transitions {
+    background: #fff;
+    display: block;
+    height: 100%;
+    left: -100%;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -34,11 +76,11 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #ffffff;
+  background: linear-gradient(-90deg, #ffffff 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #ffffff 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -99,15 +141,15 @@
 }
 
 .pink-text-gradient {
-  background: #ec008c; /* fallback for old browsers */
+  background: #ff4dff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #ec008c,
+    #ff4dff,
     #fc6767
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #ec008c,
+    #ff4dff,
     #fc6767
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;

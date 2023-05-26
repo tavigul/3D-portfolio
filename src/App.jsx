@@ -10,17 +10,25 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  AdsPause
+  AdsPause,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+     
+      <div className="relative z-0 " style={{ background: "#c74f80" }}>
+      <section id="bg">
+        <div className="top"></div>
+        <section id="transitions"></section>
+        <div className="bottom"></div>
+      </section>
+
+        {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
           <Navbar />
           <Hero />
-        </div>
+
+        {/* </div> */}
         <About />
         <Experience />
         <Tech />
@@ -28,8 +36,8 @@ const App = () => {
         <AdsPause />
         <Feedbacks />
         <div className="relative z-0">
-            <Contact />
-            <StarsCanvas />
+          {/* <Contact />
+            <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

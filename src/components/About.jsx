@@ -9,7 +9,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <div className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full green-pink-gradient p-[1px] rounded-[20px]"
     >
       <div
         options={{
@@ -43,7 +43,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
       >
         As an adept software developer, my expertise lies in TypeScript and
         JavaScript, along with proficiency in frameworks such as React, Vue.js.
