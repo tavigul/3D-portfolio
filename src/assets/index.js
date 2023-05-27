@@ -31,6 +31,11 @@ import tesla from "./company/tesla.png";
 import starbucks from "./company/starbucks.png";
 import meta from "./company/meta.png";
 
+import linkedin from "./social-media/linkedin.svg";
+import leetcode from "./social-media/leetcode.png";
+// import github from "./social-media/github.svg";
+
+
 
 import kicb from "./kicb.jpg";
 import optima from "./optima.jpg";
@@ -69,5 +74,8 @@ export {
   optima,
   tripguide,
   vuejs,
-  webpack
+  webpack,
+//   github,
+  leetcode,
+  linkedin
 };

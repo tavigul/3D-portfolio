@@ -55,6 +55,18 @@ body {
     z-index: 1000;
 }
 
+.nav-social-media {
+    width: 40px;
+}
+
+.nav-social-media--black {
+    -webkit-filter: invert(100%)
+}
+
+.nav-menu-primary {
+    color: #050816;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

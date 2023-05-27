@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close, linkedin, github, leetcode } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-white" : "bg-transparent"
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -42,25 +42,78 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Tavita &nbsp;
-            <span className="sm:block hidden"> | JavaScript</span>
-          </p>
+          <ul className="list-none hidden sm:flex flex-row gap-10">
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.title ? "bg-primary" : "text-white"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(nav.title)}
+              >
+                <a
+                  className={`${scrolled ? "nav-menu-primary" : "text-white"}`}
+                  href={`#${nav.id}`}
+                >
+                  {nav.title}
+                </a>
+              </li>
+            ))}
+          </ul>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+        <ul className=" flex flex-row justify-between items-start gap-4">
+          <li className="font-poppins font-medium cursor-pointer text-[16px]">
+            <a
+              href="https://www.linkedin.com/in/tavita-menashe/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
+              <img
+                className={`${
+                  scrolled
+                    ? "nav-social-media nav-social-media--black"
+                    : "nav-social-media"
+                }`}
+                src={linkedin}
+                alt="linkedin"
+              />
+            </a>
+          </li>
+          <li className="font-poppins font-medium cursor-pointer text-[16px]">
+            <a
+              href="https://github.com/tavigul/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className={`${
+                  scrolled
+                    ? "nav-social-media nav-social-media--black"
+                    : "nav-social-media"
+                }`}
+                src={github}
+                alt="github"
+              />
+            </a>
+          </li>
+          <li className="font-poppins font-medium cursor-pointer text-[16px]">
+            <a
+              href="https://leetcode.com/Tavita/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className={`${
+                  scrolled
+                    ? "nav-social-media nav-social-media--black"
+                    : "nav-social-media"
+                }`}
+                src={leetcode}
+                alt="leetcode"
+              />
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
