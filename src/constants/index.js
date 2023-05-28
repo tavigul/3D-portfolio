@@ -41,6 +41,9 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
+    download: true,
+    to: "public/files",
+    target: "_blank"
   },
   {
     id: "contact",
