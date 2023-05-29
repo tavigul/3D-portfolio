@@ -10,7 +10,7 @@ import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
 import Works from "./Works";
-import Feedbacks from "./Feedbacks";
+import Values from "./Values";
 import Contact from "./Contact";
 import AdsPause from "./AdsPause";
 
@@ -21,7 +21,7 @@ export {
   Tech,
   Experience,
   Works,
-  Feedbacks,
+  Values,
   Contact,
   EarthCanvas,
   BallCanvas,

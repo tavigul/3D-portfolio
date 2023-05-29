@@ -26,20 +26,20 @@ import webpack from "./tech/webpack.png"
 import askartec from "./company/askartec.png";
 import groupbwt from "./company/groupbwt.svg";
 import saltex from "./company/saltex.png";
-import shopify from "./company/shopify.png";
-import tesla from "./company/tesla.png";
-import starbucks from "./company/starbucks.png";
-import meta from "./company/meta.png";
 
 import linkedin from "./social-media/linkedin.svg";
 import leetcode from "./social-media/leetcode.png";
-// import github from "./social-media/github.svg";
 
 import avatar from "./avatar-tavi.png"
 
 import kicb from "./kicb.jpg";
 import optima from "./optima.jpg";
 import tripguide from "./tripguide.png";
+
+import leaf from "./leaf.svg";
+import love from "./love.svg";
+import macbook from "./macbook.svg";
+import sun from "./sun.svg";
 
 export {
   logo,
@@ -64,19 +64,18 @@ export {
   typescript,
   threejs,
   askartec,
-  shopify,
-  starbucks,
   groupbwt,
   saltex,
-  tesla,
-  meta,
   kicb,
   optima,
   tripguide,
   vuejs,
   webpack,
-//   github,
   leetcode,
   linkedin,
-  avatar
+  avatar,
+  love,
+  leaf,
+  macbook,
+  sun
 };

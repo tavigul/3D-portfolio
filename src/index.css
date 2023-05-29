@@ -67,6 +67,10 @@ body {
     color: #050816;
 }
 
+.values-icons {
+  width: 50px;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
