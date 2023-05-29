@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
+import { avatar } from "../assets/index";
 
 const Hero = () => {
   return (
@@ -19,12 +20,15 @@ const Hero = () => {
             Hi, I'm <span className="text-[#fff]">Tavita</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user interfaces {" "}
-            <br className="sm:block hidden" /> and web applications
+            I develop user interfaces <br className="sm:block hidden" /> and web
+            applications
           </p>
         </div>
       </div>
 
+      <div className=" w-full flex justify-end">
+        <img src={avatar} />
+      </div>
       <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">

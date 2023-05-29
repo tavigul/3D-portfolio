@@ -35,7 +35,7 @@ import linkedin from "./social-media/linkedin.svg";
 import leetcode from "./social-media/leetcode.png";
 // import github from "./social-media/github.svg";
 
-
+import avatar from "./avatar-tavi.png"
 
 import kicb from "./kicb.jpg";
 import optima from "./optima.jpg";
@@ -77,5 +77,6 @@ export {
   webpack,
 //   github,
   leetcode,
-  linkedin
+  linkedin,
+  avatar
 };
