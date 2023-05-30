@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
-import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -52,12 +51,6 @@ const About = () => {
         that address practical challenges. Let's join forces and transform your
         ideas into reality!
       </motion.p>
-
-      {/* <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div> */}
     </>
   );
 };

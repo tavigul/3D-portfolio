@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -26,10 +22,10 @@ import {
 } from "../assets";
 
 export const navLinks = [
-//   {
-//     id: "about",
-//     title: "About",
-//   },
+  //   {
+  //     id: "about",
+  //     title: "About",
+  //   },
   {
     id: "work",
     title: "Work",
@@ -43,31 +39,11 @@ export const navLinks = [
     title: "Resume",
     download: true,
     to: "public/files",
-    target: "_blank"
+    target: "_blank",
   },
   {
     id: "contact",
     title: "Contact",
-  },
-];
-
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Developer",
-    icon: mobile,
-  },
-  {
-    title: "Vue Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -176,7 +152,8 @@ const experiences = [
 const projects = [
   {
     name: "Internet Bank KICB",
-    description: "Developed Internet Bank using Vue.js 2, Quasar framework, and gRPC. Developed both the client application (gRPC), and the admin panel (REST API - Axios).",
+    description:
+      "Developed Internet Bank using Vue.js 2, Quasar framework, and gRPC. Developed both the client application (gRPC), and the admin panel (REST API - Axios).",
     tags: [
       {
         name: "vuejs",
@@ -238,4 +215,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { technologies, experiences, projects };

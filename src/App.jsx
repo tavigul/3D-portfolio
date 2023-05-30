@@ -16,18 +16,15 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-     
       <div className="relative z-0 " style={{ background: "#c74f80" }}>
-      <section id="bg">
-        <div className="top"></div>
-        <section id="transitions"></section>
-        <div className="bottom"></div>
-      </section>
-
+        <section id="bg">
+          <div className="top"></div>
+          <section id="transitions"></section>
+          <div className="bottom"></div>
+        </section>
         {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
-          <Navbar />
-          <Hero />
-
+        <Navbar />
+        <Hero />
         {/* </div> */}
         <About />
         <Experience />
@@ -35,9 +32,11 @@ const App = () => {
         <Works />
         <AdsPause />
         <Values />
-        <div className="relative z-0">
-          {/* <Contact />
+        <div className="relative z-0 bg-primary ">
+          {/* <div className="bg-primary"> */}
+            {/* <Contact />
             <StarsCanvas /> */}
+          {/* </div> */}
         </div>
       </div>
     </BrowserRouter>

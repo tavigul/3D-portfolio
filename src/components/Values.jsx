@@ -22,8 +22,6 @@ const Values = () => {
         principles in my work and define my approach to software development.
       </motion.p>
 
-      {/* <div className="flex flex-wrap"></div> */}
-
       <div className="grid grid-rows-1 grid-flow-col gap-10">
         <div className="mr-4 mt-10">
           <img className="values-icons" src={macbook} alt="macbook" />
