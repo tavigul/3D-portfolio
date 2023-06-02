@@ -54,9 +54,6 @@ const Navbar = () => {
                 <a
                   className={`${scrolled ? "nav-menu-primary" : "text-white"}`}
                   href={`#${nav.id}`}
-                //   download={`${nav.download && nav.download}`}
-                //   target={`${nav.target ? nav.target : false}`}
-                //   to={`${nav.to}`}
                 >
                   {nav.title}
                 </a>
