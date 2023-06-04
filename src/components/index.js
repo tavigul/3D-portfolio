@@ -13,6 +13,7 @@ import Works from "./Works";
 import Values from "./Values";
 import Contact from "./Contact";
 import AdsPause from "./AdsPause";
+import Hobbies from "./Hobbies";
 
 export {
   Hero,
@@ -28,4 +29,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   AdsPause,
+  Hobbies
 };

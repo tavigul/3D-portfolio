@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
   AdsPause,
+  Hobbies
 } from "./components";
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         <Works />
         <AdsPause />
         <Values />
+        <Hobbies />
         <div className="relative z-0 bg-primary ">
           {/* <div className="bg-primary"> */}
             {/* <Contact />
