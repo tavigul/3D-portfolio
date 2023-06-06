@@ -136,6 +136,56 @@ body {
     0 10px 10px -10px rgba(164, 164, 165, 0.3);
 }
 
+/* TREE LIST  */
+
+.tree-list-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: ui-monospace, monospace;
+    font-size: 14px;
+    line-height: 21px;
+    --webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.tree-list-frame {
+  position: relative;
+  padding: 4px 0px 0px 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  vertical-align: middle;
+  color: #24292e;
+  fill: #24292e;
+}
+
+.tree-list-title {
+  vertical-align: middle;
+}
+
+.tree-list-content {
+  will-change: transform, opacity, height;
+  margin-left: 6px;
+  padding: 0px 0px 0px 14px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+
+.tree-list-toggle {
+  width: 1em;
+  height: 1em;
+  margin-right: 10;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
