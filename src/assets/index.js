@@ -16,8 +16,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import vuejs from "./tech/vuejs.png"
-import webpack from "./tech/webpack.png"
+import vuejs from "./tech/vuejs.png";
+import webpack from "./tech/webpack.png";
 
 import askartec from "./company/askartec.png";
 import groupbwt from "./company/groupbwt.svg";
@@ -26,7 +26,7 @@ import saltex from "./company/saltex.png";
 import linkedin from "./social-media/linkedin.svg";
 import leetcode from "./social-media/leetcode.png";
 
-import avatar from "./avatar-tavi.png"
+import avatar from "./avatar-tavi.png";
 
 import kicb from "./kicb.jpg";
 import optima from "./optima.jpg";
@@ -36,6 +36,13 @@ import leaf from "./leaf.svg";
 import love from "./love.svg";
 import macbook from "./macbook.svg";
 import sun from "./sun.svg";
+
+import tavi from "./tavi.jpg";
+import travel from "./travel.jpg";
+import trekking from "./trekking.jpg";
+import horse from "./horse.jpg";
+import persik from "./persik.jpg"
+
 
 export {
   logo,
@@ -69,5 +76,10 @@ export {
   love,
   leaf,
   macbook,
-  sun
+  sun,
+  tavi,
+  travel,
+  trekking,
+  horse,
+  persik
 };

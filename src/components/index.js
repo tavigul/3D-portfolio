@@ -14,8 +14,6 @@ import Values from "./Values";
 import Contact from "./Contact";
 import AdsPause from "./AdsPause";
 import Hobbies from "./Hobbies";
-import TreeList from "./TreeList";
-
 
 export {
   Hero,
@@ -31,6 +29,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   AdsPause,
-  Hobbies,
-  TreeList
+  Hobbies
 };
