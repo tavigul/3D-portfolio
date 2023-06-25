@@ -29,15 +29,14 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <AdsPause />
+        {/* <AdsPause /> */}
         <Values />
-        <Hobbies />
         <Hobbies />
 
         <div className="relative z-0 bg-primary ">
           {/* <div className="bg-primary"> */}
-            {/* <Contact />
-            <StarsCanvas /> */}
+            <Contact />
+            <StarsCanvas />
           {/* </div> */}
         </div>
       </div>
